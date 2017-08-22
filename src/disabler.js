@@ -1,6 +1,8 @@
-var mergeButtons = document.getElementsByClassName('btn btn-danger js-merge-branch-action');
+var mergeButtons = document.getElementsByClassName('BtnGroup btn-group-merge');
 
-if(mergeButtons.length == 1) {
+if(mergeButtons.length == 3) {
 	var mergeButton = mergeButtons[0];
-	mergeButton.disabled = true;
+	mergeButtons[0].disabled = true;
+	mergeButtons[1].disabled = true;
+	mergeButtons[2].disabled = true;
 }
