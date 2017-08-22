@@ -1,4 +1,4 @@
-var mergeButtons = document.getElementsByClassName('btn btn-primary js-merge-branch-action');
+var mergeButtons = document.getElementsByClassName('btn btn-primary BtnGroup-item js-details-target');
 
 //if(mergeButtons.length != 1) {
 //	mergeButtons = document.getElementsByClassName('btn btn-danger js-merge-branch-action');
